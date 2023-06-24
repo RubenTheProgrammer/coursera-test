@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>how to eat oreos</title>
+<meta charset="utf-8">
+<title>Simple Selectors</title>
+<style>
 
-  <style>
-    h1{
-      color: black;
-      font-family: system-ui;
-      font-size: 25px;
-      text-align: center;
-    }
+/* all h2 elements */
+h2 {
+  color: red;
+  text-align: center;
+}
 
-    a{
-      color: red;
-      font-size: 18px;
-    }
-  </style>
+
+/* all with class="highlight" */
+.highlight {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: green;
+  opacity: .6;
+}
+
+/* element with id="mainPoint" */
+#mainPoint {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: red;
+  opacity: .7;
+}
+
+/* all p AND h1 elements */
+p, h1 {
+  color: blue;
+  text-align: center;
+}
+
+</style>
 </head>
 <body>
-  <h1>Ordered List for how to eat oreos 🍪</h1>
-  <div>
-    Oreo cookie eating procedure:
-    <ol>
-      <li>Open box</li>
-      <li>Take out cookie</li>
-      <li>Make a Double Oreo
-        <ol>
-          <li>Peel off the top part</li>
-          <li>Place another cookie in the middle</li>
-          <li>Put back the top part</li>
-        </ol>
-      </li>
-      <li>Enjoy!</li>
-    </ol>
-  </div>
-  <div>Yo by the way normal cookies &lt; oreos.</div> <!--Here I used an entity code for the less than symbol, you can find a list of these symbols online!-->
-  <div>Here is a homemade oreo recipe that is veryyyyy tasty:</div>
-  <a href="https://www.seriouseats.com/bravetart-homemade-oreo-style-cookies-recipe" target="_blank" title="Oreo Recipe">Link to recipe</a>
+
+<h1>Simple Selectors (h1)</h1>
+<h2>Subheading 1 (h2)</h2>
+<p class="highlight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
+<p class="highlight">Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<h2>Subheading 2 (h2)</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo ipsum dolores vel modi magnam veniam alias at nam. Voluptatem officiis dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!</p>
+<div>This is the main point of the entire article. So, attribute 
+<span id="mainPoint">id="mainPoint".</span> </div>
+
 </body>
 </html>
