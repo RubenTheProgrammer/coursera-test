@@ -1,3 +1,9 @@
+body {
+    color: red;
+    text-align: left;
+    font-family: system-ui;
+}
+
 header li {
     list-style: none;
 }
