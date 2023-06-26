@@ -1,74 +1,30 @@
-h1 {
-    color: Black;
-    font-family: system-ui;
-    font-size: 20 px;
-    text-align: center;
-    margin-top: 35px;
+div {
+    background-color: #00FFFF;
+  }
+  p {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
   }
   
-  h1:hover,
-  h1:active {
-    font-style: italic;
-    cursor: pointer;
+  #p1 {
+    background-color: #A52A2A;
+    float: left;
+    height: 150px;
+  }
+  #p2 {
+    background-color: #DEB887;
+    float: right;
+    height: 100px;
+  }
+  #p3 {
+    background-color: #5F9EA0;
+    clear: both;
+  }
+  #p4 {
+    background-color: #FF7F50;
   }
   
-  div {
-    color: black;
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  div:hover,
-  div:active {
-    font-style: italic;
-    cursor: pointer;
-  }
-  
-  a {
-    color: white;
-    background-color: #189ab4;
-    font-size: 20px;
-  }
-  header {
-    color: black;
-    background-color: #40b0df;
-    width: 325px;
-    font-size: 22px;
-    font-weight: bold;
-    font-family: system-ui;
-  }
-  
-  header:hover,
-  header:active {
-    background-color: #ffff5c;
-    font-style: italic;
-    cursor: pointer;
-  }
-  
-  ul {
-    color: black;
-    font-size: 15px;
-  }
-  #bottom-margin {
-    margin-bottom: 20px;
-  }
-  ol {
-    color: brown;
-    font-size: 14px;
-  }
-  
-  a:hover,
-  a:active {
-    background-color: #ffff80;
-    color: black;
-    font-style: italic;
-    cursor: pointer;
-  }
-  
-  #copyright {
-    position: absolute;
-    color: #808080;
-    font-size: 10px;
-    right: 250px;
-  }
-  
+  section {
+    clear: left;
+  }  
